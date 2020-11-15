@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="gameTitle">SPACE DODGE</h1>
+    <p style="color: white; font-family: Georgia; font-size: 20px">
+      Your Score:1
+    </p>
+    <div class="middleDiv">
+      <canvas id="myCanvas"></canvas>
+      <div class="controlList">
+        <div>
+          <h3>Instruction</h3>
+          <p>Dodge the projectile!</p>
+        </div>
+        <div>
+          <h3>Controls</h3>
+          <p>Up: ↑ <br />Down: ↓ <br />Left: ← <br />Right: →</p>
+          <button class="retryButton" onclick="replayGame()" disabled>
+            replay
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>

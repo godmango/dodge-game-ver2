@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+.gameTitle {
+  font-size: 50px;
+  font-family: Georgia;
+  background: linear-gradient(white, #0c2461);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.middleDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  height: 600px;
+}
+.controlList {
+  color: white;
+  font-family: Georgia;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.retryButton {
+  padding: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+.retryButton:hover {
+  background-color: #bdc3c7;
+}
