@@ -158,6 +158,9 @@ function replayGame() {
 function main() {
   update();
   render();
+  document
+    .getElementsByClassName("startButton")[0]
+    .setAttribute("disabled", "disabled");
   //player and projectile collision hitbox
   for (let index = 0; index < balls.length; index++) {
     const ball = balls[index];
@@ -190,6 +193,6 @@ function main() {
 }
 loadImages();
 setupControlKey();
-main();
+// main();
 
 //todo: lives. sound effect. body margin. canvas size. style
